@@ -1,0 +1,449 @@
+INFO  11:06:24 Application started. Press Ctrl+C to shut down.
+INFO  11:06:24 Hosting environment: Development
+INFO  11:06:24 Content root path: D:\FlowApi\FlowApi
+ERROR 11:06:36 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:09:57 Application started. Press Ctrl+C to shut down.
+INFO  11:09:57 Hosting environment: Development
+INFO  11:09:57 Content root path: D:\FlowApi\FlowApi
+ERROR 11:10:05 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:10:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'FlowApi.Controllers.FlowController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:11:34 Application started. Press Ctrl+C to shut down.
+INFO  11:11:34 Hosting environment: Development
+INFO  11:11:34 Content root path: D:\FlowApi\FlowApi
+INFO  11:11:43 Get flower by 1 is invoked
+INFO  12:11:24 Application started. Press Ctrl+C to shut down.
+INFO  12:11:24 Hosting environment: Development
+INFO  12:11:24 Content root path: D:\FlowApi\FlowApi
+INFO  12:11:34  Http Get Flower Details request
+INFO  12:12:09 Application started. Press Ctrl+C to shut down.
+INFO  12:12:09 Hosting environment: Development
+INFO  12:12:09 Content root path: D:\FlowApi\FlowApi
+INFO  12:12:18  Http Get Flower Details request
+INFO  12:14:45 Application started. Press Ctrl+C to shut down.
+INFO  12:14:45 Hosting environment: Development
+INFO  12:14:45 Content root path: D:\FlowApi\FlowApi
+INFO  12:14:53  Http Get Flower Details request
+INFO  12:15:20 Application started. Press Ctrl+C to shut down.
+INFO  12:15:20 Hosting environment: Development
+INFO  12:15:20 Content root path: D:\FlowApi\FlowApi
+INFO  12:15:53  Http Get Flower Details request
+INFO  12:16:34 Get flower by Rose is invoked
+INFO  12:19:57 Application started. Press Ctrl+C to shut down.
+INFO  12:19:57 Hosting environment: Development
+INFO  12:19:57 Content root path: D:\FlowApi\FlowApi
+INFO  12:20:05  Http Get Flower Details request
+INFO  12:22:28 Application started. Press Ctrl+C to shut down.
+INFO  12:22:28 Hosting environment: Development
+INFO  12:22:28 Content root path: D:\FlowApi\FlowApi
+INFO  12:22:36  Http Get Flower Details request
+INFO  12:27:18 Application started. Press Ctrl+C to shut down.
+INFO  12:27:18 Hosting environment: Development
+INFO  12:27:18 Content root path: D:\FlowApi\FlowApi
+INFO  12:27:44  Http Get Flower Details request
+INFO  12:35:47 Application started. Press Ctrl+C to shut down.
+INFO  12:35:47 Hosting environment: Development
+INFO  12:35:47 Content root path: D:\FlowApi\FlowApi
+INFO  12:35:54  Http Get Flower Details request
+INFO  12:36:05  Http Get Flower Details request
+INFO  12:56:52 Application started. Press Ctrl+C to shut down.
+INFO  12:56:52 Hosting environment: Development
+INFO  12:56:52 Content root path: D:\FlowApi\FlowApi
+INFO  12:57:07  Http Get  Details request
+INFO  12:58:55 Application started. Press Ctrl+C to shut down.
+INFO  12:58:55 Hosting environment: Development
+INFO  12:58:55 Content root path: D:\FlowApi\FlowApi
+INFO  12:59:03  Http Get  Details request
+INFO  09:46:23 Application started. Press Ctrl+C to shut down.
+INFO  09:46:23 Hosting environment: Development
+INFO  09:46:23 Content root path: D:\FlowApi\FlowApi
+INFO  09:46:38  Http Get  Details request
+INFO  09:46:57  Http Get Drug Details request
+INFO  10:10:41 Application started. Press Ctrl+C to shut down.
+INFO  10:10:41 Hosting environment: Development
+INFO  10:10:41 Content root path: D:\FlowApi\FlowApi
+INFO  10:15:54 Application started. Press Ctrl+C to shut down.
+INFO  10:15:54 Hosting environment: Development
+INFO  10:15:54 Content root path: D:\FlowApi\FlowApi
+INFO  10:19:11 Application started. Press Ctrl+C to shut down.
+INFO  10:19:11 Hosting environment: Development
+INFO  10:19:11 Content root path: D:\FlowApi\FlowApi
+INFO  10:20:45 Application started. Press Ctrl+C to shut down.
+INFO  10:20:45 Hosting environment: Development
+INFO  10:20:45 Content root path: D:\FlowApi\FlowApi
+INFO  05:16:49 Application started. Press Ctrl+C to shut down.
+INFO  05:16:49 Hosting environment: Development
+INFO  05:16:49 Content root path: D:\FlowApi\FlowApi
+INFO  05:17:05  Http Get  Details request
+INFO  10:33:09 Application started. Press Ctrl+C to shut down.
+INFO  10:33:09 Hosting environment: Development
+INFO  10:33:09 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\FlowApi\FlowApi
+INFO  11:07:45 Application started. Press Ctrl+C to shut down.
+INFO  11:07:45 Hosting environment: Development
+INFO  11:07:45 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\FlowApi\FlowApi
+INFO  11:41:58  Http Get flower Details request
+INFO  11:44:51  Http Get flower Details request
+INFO  11:45:01  Http Get flower Details request
+INFO  11:45:04  Http Get flower Details request
+INFO  11:45:09  Http Get flower Details request
+INFO  11:45:11  Http Get flower Details request
+INFO  11:45:15  Http Get flower Details request
+INFO  11:45:17  Http Get flower Details request
+INFO  11:46:09  Http Get flower Details request
+INFO  11:46:23  Http Get flower Details request
+INFO  11:46:29  Http Get flower Details request
+INFO  11:46:34 Get flower by 10 is invoked
+INFO  11:50:29  Http Get flower Details request
+INFO  11:50:32 Get flower by 3 is invoked
+INFO  11:52:21 Application started. Press Ctrl+C to shut down.
+INFO  11:52:21 Hosting environment: Development
+INFO  11:52:21 Content root path: C:\Users\Administrator.KANINI-LTP-459\Downloads\flowerproj api\FlowApi\FlowApi
+INFO  11:53:06  Http Get flower Details request
+INFO  11:53:14 Get flower by 10 is invoked
+INFO  11:57:59  Http Get flower Details request
+INFO  11:58:02 Get flower by 9 is invoked
+INFO  11:58:06 Get flower by 9 is invoked
+INFO  11:58:13 Get flower by 9 is invoked
+INFO  12:02:12  Http Get flower Details request
+INFO  12:02:18 Get flower by 9 is invoked
+INFO  12:02:24  Http Get flower Details request
+INFO  12:02:27 Get flower by 4 is invoked
+INFO  12:02:30 Get flower by 4 is invoked
+INFO  12:05:18  Http Get flower Details request
+INFO  12:05:24  Http Get flower Details request
+INFO  12:08:54  Http Get flower Details request
+INFO  12:08:57 Get flower by 4 is invoked
+INFO  12:08:59 Get flower by 4 is invoked
+INFO  12:11:18  Http Get flower Details request
+INFO  12:13:13  Http Get flower Details request
+INFO  12:14:00 Adding new flower is invoked
+INFO  12:14:01  Http Get flower Details request
+INFO  12:14:11 Get flower by 20 is invoked
+INFO  12:14:13 Delete flower by 20 is invoked
+INFO  12:14:13  Http Get flower Details request
+INFO  12:14:21 Get flower by 19 is invoked
+INFO  12:14:35 UPdate flower is invoked
+INFO  12:14:35  Http Get flower Details request
+INFO  05:21:16 Application started. Press Ctrl+C to shut down.
+INFO  05:21:16 Hosting environment: Development
+INFO  05:21:16 Content root path: C:\Users\Administrator\Documents\Project\flowerstore-v2-main\FlowApi\FlowApi
+INFO  05:22:21  Http Get flower Details request
+INFO  05:26:45  Http Get flower Details request
+INFO  05:50:23  Http Get flower Details request
+INFO  05:55:29  Http Get flower Details request
+INFO  05:58:38  Http Get flower Details request
+INFO  05:59:35 Get flower by 1 is invoked
+INFO  05:59:50 Get flower by 1 is invoked
+INFO  11:27:05  Http Get flower Details request
+INFO  11:35:28  Http Get flower Details request
+INFO  11:37:41 Get flower by 1 is invoked
+INFO  11:45:30  Http Get flower Details request
+INFO  11:45:35 Get flower by 3 is invoked
+INFO  11:45:40 Get flower by 3 is invoked
+INFO  11:47:44  Http Get flower Details request
+INFO  11:45:18 Application started. Press Ctrl+C to shut down.
+INFO  11:45:18 Hosting environment: Development
+INFO  11:45:18 Content root path: C:\Users\Administrator\Documents\Project\flowerstore-v2-main\FlowApi\FlowApi
+INFO  11:45:29 Get flower by 5 is invoked
+INFO  12:35:20 Application started. Press Ctrl+C to shut down.
+INFO  12:35:20 Hosting environment: Development
+INFO  12:35:20 Content root path: C:\Users\Administrator\Documents\Project\flowerstore-v2-main\FlowApi\FlowApi
+INFO  12:35:26 Get flower by 5 is invoked
+INFO  12:38:25 Get flower by 5 is invoked
+INFO  12:40:09 Get flower by 5 is invoked
+INFO  12:40:09 Get flower by 6 is invoked
+INFO  12:40:59 Get flower by 6 is invoked
+INFO  12:40:59 Get flower by 5 is invoked
+INFO  12:41:38 Get flower by 5 is invoked
+INFO  12:41:38 Get flower by 6 is invoked
+INFO  12:43:11 Get flower by 5 is invoked
+INFO  12:43:11 Get flower by 6 is invoked
+INFO  12:51:32 Get flower by 5 is invoked
+INFO  12:51:32 Get flower by 6 is invoked
+INFO  12:56:08 Get flower by 5 is invoked
+INFO  12:56:32 Get flower by 6 is invoked
+INFO  12:58:22 Get flower by 5 is invoked
+INFO  12:58:32 Get flower by 6 is invoked
+INFO  01:00:41 Get flower by 5 is invoked
+INFO  01:00:43 Get flower by 6 is invoked
+INFO  01:02:33 Get flower by 6 is invoked
+INFO  01:02:33 Get flower by 5 is invoked
+INFO  01:03:44 Get flower by 6 is invoked
+INFO  01:03:44 Get flower by 5 is invoked
+INFO  01:05:07 Get flower by 6 is invoked
+INFO  01:05:07 Get flower by 5 is invoked
+INFO  01:08:26 Get flower by 9 is invoked
+INFO  01:08:26 Get flower by 6 is invoked
+INFO  01:08:26 Get flower by 5 is invoked
+INFO  01:09:07 Get flower by 6 is invoked
+INFO  01:09:07 Get flower by 5 is invoked
+INFO  01:09:07 Get flower by 9 is invoked
+INFO  01:12:17 Get flower by 6 is invoked
+INFO  01:12:17 Get flower by 5 is invoked
+INFO  01:12:17 Get flower by 9 is invoked
+INFO  01:50:05 Get flower by 9 is invoked
+INFO  01:50:05 Get flower by 5 is invoked
+INFO  01:50:05 Get flower by 6 is invoked
+INFO  01:50:05 Get flower by 6 is invoked
+INFO  01:50:06 Get flower by 5 is invoked
+INFO  01:50:06 Get flower by 9 is invoked
+INFO  01:50:34 Get flower by 6 is invoked
+INFO  01:50:34 Get flower by 9 is invoked
+INFO  01:50:34 Get flower by 5 is invoked
+INFO  01:51:07 Get flower by 6 is invoked
+INFO  01:51:07 Get flower by 5 is invoked
+INFO  01:51:07 Get flower by 9 is invoked
+INFO  01:51:36 Get flower by 5 is invoked
+INFO  01:51:36 Get flower by 9 is invoked
+INFO  05:08:36 Get flower by 9 is invoked
+INFO  05:08:36 Get flower by 5 is invoked
+INFO  05:12:43 Get flower by 9 is invoked
+INFO  05:12:43 Get flower by 5 is invoked
+INFO  05:22:15 Get flower by 9 is invoked
+INFO  05:24:58 Get flower by 9 is invoked
+INFO  05:38:39 Get flower by 5 is invoked
+INFO  05:38:39 Get flower by 6 is invoked
+INFO  05:39:10 Get flower by 6 is invoked
+INFO  05:41:48 Get flower by 6 is invoked
+INFO  05:43:44 Get flower by 9 is invoked
+INFO  05:47:43 Get flower by 6 is invoked
+INFO  09:56:07 Application started. Press Ctrl+C to shut down.
+INFO  09:56:08 Hosting environment: Development
+INFO  09:56:08 Content root path: C:\Users\Administrator\Documents\Project\flowerstore-v2-main\FlowApi\FlowApi
+INFO  09:57:59 Get flower by 5 is invoked
+INFO  10:12:31 Get flower by 5 is invoked
+INFO  10:26:57 Get flower by 5 is invoked
+INFO  10:36:59 Get flower by 5 is invoked
+INFO  10:37:15 Get flower by 5 is invoked
+INFO  10:38:24 Get flower by 5 is invoked
+INFO  10:39:38 Get flower by 5 is invoked
+INFO  10:43:19 Get flower by 5 is invoked
+INFO  11:22:20 Get flower by 6 is invoked
+INFO  11:22:20 Get flower by 5 is invoked
+INFO  11:24:47 Get flower by 6 is invoked
+INFO  11:25:11 Get flower by 6 is invoked
+INFO  11:25:38 Get flower by 6 is invoked
+INFO  12:45:00 Get flower by 6 is invoked
+INFO  12:53:36 Get flower by 6 is invoked
+INFO  12:56:25 Get flower by 6 is invoked
+INFO  12:56:50 Get flower by 6 is invoked
+INFO  12:58:05 Get flower by 6 is invoked
+INFO  12:59:49 Get flower by 6 is invoked
+INFO  01:00:33 Get flower by 6 is invoked
+INFO  01:00:42 Get flower by 6 is invoked
+INFO  01:02:46 Get flower by 6 is invoked
+INFO  01:03:12 Get flower by 6 is invoked
+INFO  01:03:39 Get flower by 6 is invoked
+INFO  11:12:28  Http Get flower Details request
+INFO  11:13:07  Http Get flower Details request
+INFO  01:43:02 Get flower by 6 is invoked
+INFO  05:08:32  Http Get flower Details request
+INFO  05:15:53  Http Get flower Details request
+INFO  05:15:56 Get flower by 2 is invoked
+INFO  05:16:05 Get flower by 2 is invoked
+INFO  05:18:02 Get flower by 2 is invoked
+INFO  05:19:34 Get flower by 2 is invoked
+INFO  05:19:42 Get flower by 2 is invoked
+INFO  05:27:12 Get flower by 2 is invoked
+INFO  05:27:15 Get flower by 2 is invoked
+INFO  05:27:17  Http Get flower Details request
+INFO  05:27:29  Http Get flower Details request
+INFO  05:38:14  Http Get flower Details request
+INFO  05:38:19 Get flower by 9 is invoked
+INFO  05:38:24 Get flower by 9 is invoked
+INFO  05:50:40  Http Get flower Details request
+INFO  05:50:46 Get flower by 3 is invoked
+INFO  05:51:24  Http Get flower Details request
+INFO  05:51:51 Get flower by 3 is invoked
+INFO  05:51:54 Get flower by 3 is invoked
+INFO  05:51:54 Get flower by 2 is invoked
+INFO  10:45:53  Http Get flower Details request
+INFO  10:46:57  Http Get flower Details request
+INFO  10:47:13  Http Get flower Details request
+INFO  10:49:14  Http Get flower Details request
+INFO  10:49:41  Http Get flower Details request
+INFO  10:50:11  Http Get flower Details request
+INFO  10:51:23  Http Get flower Details request
+INFO  10:51:39  Http Get flower Details request
+INFO  10:57:15  Http Get flower Details request
+INFO  10:57:32  Http Get flower Details request
+INFO  10:58:25  Http Get flower Details request
+INFO  10:58:59  Http Get flower Details request
+INFO  10:59:59  Http Get flower Details request
+INFO  11:01:30  Http Get flower Details request
+INFO  11:03:07  Http Get flower Details request
+INFO  11:04:01  Http Get flower Details request
+INFO  11:04:15  Http Get flower Details request
+INFO  11:04:40  Http Get flower Details request
+INFO  11:05:03  Http Get flower Details request
+INFO  11:05:28  Http Get flower Details request
+INFO  11:07:13  Http Get flower Details request
+INFO  11:07:57  Http Get flower Details request
+INFO  11:08:57  Http Get flower Details request
+INFO  11:09:37  Http Get flower Details request
+INFO  11:09:45 Get flower by 3 is invoked
+INFO  11:09:50  Http Get flower Details request
+INFO  11:10:02  Http Get flower Details request
+INFO  11:11:16  Http Get flower Details request
+INFO  11:11:32  Http Get flower Details request
+INFO  11:11:53  Http Get flower Details request
+INFO  11:11:58  Http Get flower Details request
+INFO  11:14:29  Http Get flower Details request
+INFO  11:14:32  Http Get flower Details request
+INFO  11:14:44  Http Get flower Details request
+INFO  11:15:03  Http Get flower Details request
+INFO  11:18:35  Http Get flower Details request
+INFO  11:18:41  Http Get flower Details request
+INFO  11:18:49  Http Get flower Details request
+INFO  11:19:34  Http Get flower Details request
+INFO  11:19:41  Http Get flower Details request
+INFO  11:19:48  Http Get flower Details request
+INFO  11:20:09  Http Get flower Details request
+INFO  11:20:36  Http Get flower Details request
+INFO  11:20:45  Http Get flower Details request
+INFO  11:20:52  Http Get flower Details request
+INFO  11:21:51  Http Get flower Details request
+INFO  11:22:06  Http Get flower Details request
+INFO  11:22:34  Http Get flower Details request
+INFO  11:22:47  Http Get flower Details request
+INFO  11:23:33  Http Get flower Details request
+INFO  11:26:46  Http Get flower Details request
+INFO  11:26:53 Get flower by 3 is invoked
+INFO  11:27:19 Get flower by 3 is invoked
+INFO  11:27:19  Http Get flower Details request
+INFO  11:27:38 Get flower by 11 is invoked
+INFO  11:27:50  Http Get flower Details request
+INFO  11:29:22  Http Get flower Details request
+INFO  11:29:39 Get flower by 14 is invoked
+INFO  11:29:44 Get flower by 14 is invoked
+INFO  11:29:44 Get flower by 3 is invoked
+INFO  11:31:16 Get flower by 3 is invoked
+INFO  11:31:17 Get flower by 14 is invoked
+INFO  11:31:39 Get flower by 14 is invoked
+INFO  11:32:42  Http Get flower Details request
+INFO  11:35:37  Http Get flower Details request
+INFO  11:35:41  Http Get flower Details request
+INFO  11:36:15  Http Get flower Details request
+INFO  11:36:20 Get flower by 2 is invoked
+INFO  11:36:30 Get flower by 2 is invoked
+INFO  11:36:30 Get flower by 3 is invoked
+INFO  11:36:31  Http Get flower Details request
+INFO  11:36:48  Http Get flower Details request
+INFO  11:37:00  Http Get flower Details request
+INFO  11:37:14  Http Get flower Details request
+INFO  11:37:22  Http Get flower Details request
+INFO  11:37:40  Http Get flower Details request
+INFO  11:38:01  Http Get flower Details request
+INFO  11:38:10  Http Get flower Details request
+INFO  11:38:13  Http Get flower Details request
+INFO  11:38:34 Get flower by 2 is invoked
+INFO  11:38:34 Get flower by 3 is invoked
+INFO  11:38:35  Http Get flower Details request
+INFO  11:38:40  Http Get flower Details request
+INFO  11:38:56 Get flower by 2 is invoked
+INFO  11:39:02 Get flower by 3 is invoked
+INFO  11:39:02 Get flower by 2 is invoked
+INFO  11:39:02 Get flower by 2 is invoked
+INFO  11:39:26  Http Get flower Details request
+INFO  11:39:28 Get flower by 1 is invoked
+INFO  11:39:36  Http Get flower Details request
+INFO  11:41:13  Http Get flower Details request
+INFO  09:21:13  Http Get flower Details request
+INFO  09:21:44  Http Get flower Details request
+INFO  09:22:26 Get flower by 10 is invoked
+INFO  09:22:34 Get flower by 10 is invoked
+INFO  09:28:22  Http Get flower Details request
+INFO  09:33:52  Http Get flower Details request
+INFO  09:33:58 Get flower by 9 is invoked
+INFO  09:34:01 Get flower by 9 is invoked
+INFO  09:34:18  Http Get flower Details request
+INFO  09:16:28  Http Get flower Details request
+INFO  09:17:02 Adding new flower is invoked
+INFO  09:17:02  Http Get flower Details request
+INFO  09:20:09  Http Get flower Details request
+INFO  09:29:21  Http Get flower Details request
+INFO  09:29:27 Get flower by 8 is invoked
+INFO  09:29:33 Get flower by 8 is invoked
+INFO  09:30:01  Http Get flower Details request
+INFO  09:31:39  Http Get flower Details request
+INFO  09:32:38  Http Get flower Details request
+INFO  11:24:59  Http Get flower Details request
+INFO  11:25:09 Get flower by 7 is invoked
+INFO  11:25:14 Get flower by 3 is invoked
+INFO  11:25:14 Get flower by 2 is invoked
+INFO  11:25:14 Get flower by 2 is invoked
+INFO  11:25:14 Get flower by 7 is invoked
+INFO  11:25:44  Http Get flower Details request
+INFO  11:31:36  Http Get flower Details request
+INFO  11:35:41  Http Get flower Details request
+INFO  11:49:59  Http Get flower Details request
+INFO  11:51:18  Http Get flower Details request
+INFO  11:52:51  Http Get flower Details request
+INFO  11:53:33  Http Get flower Details request
+INFO  11:53:38 Get flower by 2 is invoked
+INFO  11:53:44 Get flower by 2 is invoked
+INFO  11:55:29  Http Get flower Details request
+INFO  11:57:58  Http Get flower Details request
+INFO  11:58:02 Get flower by 4 is invoked
+INFO  11:58:34 Get flower by 4 is invoked
+INFO  11:58:38 Get flower by 4 is invoked
+INFO  12:02:18  Http Get flower Details request
+INFO  12:05:08  Http Get flower Details request
+INFO  12:06:27  Http Get flower Details request
+INFO  12:08:15  Http Get flower Details request
+INFO  12:14:01  Http Get flower Details request
+INFO  12:15:39  Http Get flower Details request
+INFO  12:16:38  Http Get flower Details request
+INFO  12:19:33  Http Get flower Details request
+INFO  12:21:50  Http Get flower Details request
+INFO  12:26:08  Http Get flower Details request
+INFO  12:30:57  Http Get flower Details request
+INFO  12:41:11  Http Get flower Details request
+INFO  12:56:27  Http Get flower Details request
